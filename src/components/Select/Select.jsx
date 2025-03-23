@@ -11,6 +11,8 @@ const Select = ({ addplayer, handleISActiveState }) => {
           <p>{batting_style}</p>
         </div>
       </div>
+
+      
       <div
         className="text-2xl"
         onClick={() => handleISActiveState("selected", id)}
