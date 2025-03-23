@@ -5,6 +5,10 @@ import "./Player.css";
 const Player = ({ player, handleAddToSelected }) => {
   const { name, img, country, role, batting_style, bowling_style, price } =
     player;
+
+
+
+    
   return (
     <div>
       <div className="border border-gray-200 rounded-2xl p-4 mb-4">
