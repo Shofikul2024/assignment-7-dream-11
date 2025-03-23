@@ -3,6 +3,8 @@ import logo from "../../assets/assets/logo.png";
 import { FaBars, FaCoins } from "react-icons/fa";
 const Navbar = ({ coins }) => {
   return (
+
+    
     <div className="flex items-center justify-between mt-5 mb-10 sticky top-0 backdrop-blur">
       <img src={logo} alt="" />
       <div className="flex items-center gap-5">
